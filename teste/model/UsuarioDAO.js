@@ -18,16 +18,16 @@ function UsuarioDAO(){
   this.search = function(name,callback){
     var c = connection.connected();
     var query = "SELECT * from usuario WHERE login ='" + name + "';";
-    console.log(query)
+   // alert(query)
     c.query(query,function(err,result){
     //  alert('aqui')
       if(err){
-        console.log(err.message)
-        console.log("[ERROR] " + err.message);
+        alert("[ERROR] " + err.message);
         callback(false);
       }
       else{
-        console.log(result[0].nome)
+        alert("Nome do usuário: " + result[0].nome);
+        c.end();
         callback(true);
 
       }

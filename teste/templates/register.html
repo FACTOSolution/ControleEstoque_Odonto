@@ -6,48 +6,55 @@
       </title>
 
     </head>
-    <body>
+    <body class="tela_pad">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-
+        <link rel="stylesheet" type="text/css" href="style.css">
         <script src="../model/ConexaoBanco.js"></script>
         <script src="../controller/cadastroController.js"></script>
         <script src="../controller/controller.js"></script>
         <script src="../model/UsuarioDAO.js"></script>
         <script src="../model/Usuario.js"></script>
 
+
         <form role="form" action="" method="post" >
             <div class="col-md-6">
                 <div class="form-group">
-                    <label for="InputName">Nome Completo</label>
+                    <br>
+                    <label class="perguntas" for="InputName">Preencha os campos abaixo</label>
+
+                    <br><br>
+
                     <div class="input-group">
                         <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Nome Completo" required>
                             <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="InputEmail">Seu Email</label>
                     <div class="input-group">
                         <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email" required  >
                             <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="InputLogin">Seu Login</label>
                     <div class="input-group">
                         <input type="text" class="form-control" id="InputLogin" name="InputLogin" placeholder="Login" required  >
                             <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="InputSenha">Sua Senha</label>
                     <div class="input-group">
                         <input type="password" class="form-control" id="InputSenha" name="InputSenha" placeholder="Senha" required  >
                             <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
                     </div>
                 </div>
+                <a style="background-color: red" href="index.html"<button class="btn btn-lg btn-primary btn-block" type="button">Cancelar</button></a>
+                <br>
                 <button class="btn btn-lg btn-primary btn-block" onclick="realizarCadastro()" type="button">Cadastrar</button>
             </div>
         </form>
+         <div class="desenv_factos">
+    <h6>Desenvolvido por Factos &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img class="logo_factos" src="factos_color.svg" alt="FACTOS"></h6>
+  </div>
     </body>
 </html>

@@ -1,46 +1,45 @@
 <!doctype html>
 <html>
-  <head>
-    <title>Controle Estoque</title>
-  </head>
-  <body class="tela_inicial">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="../model/ConexaoBanco.js"></script>
-    <script src="../controller/cadastroController.js"></script>
-    <script src="../controller/controller.js"></script>
-    <script src="../model/UsuarioDAO.js"></script>
-    <script src="../model/Usuario.js"></script>
-    <script src="../controller/login.js"></script>
-    <script src="../index.js"></script>
+<head>
+  <title>Controle Estoque</title>
+</head>
+<body class="tela_pad">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="../model/ConexaoBanco.js"></script>
+  <script src="../controller/cadastroController.js"></script>
+  <script src="../controller/controller.js"></script>
+  <script src="../model/UsuarioDAO.js"></script>
+  <script src="../model/Usuario.js"></script>
+  <script src="../controller/login.js"></script>
+  <script src="../index.js"></script>
 
 
 
-    <br><br><br><br><br><br>
-    <form action="" method="post" >
-      <div" class="form-group">
-          <label class="campos" for="login">Login</label>
-          <div class="input-group">
-              <input type="text" class="form-control" id="login" name="login" placeholder="Digite seu login." required  >
-                  <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-          </div>
-      </div>
-      <div class="form-group">
-          <label class="campos" for="pass">Senha</label>
-          <div class="input-group">
-              <input type="password" class="form-control" id="pass" name="pass" placeholder="Digite sua senha." required  >
-                  <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-          </div>
-      </div>
-      <button class="btn btn-lg btn-primary btn-block" onclick="loginUser()" type="button">Login</button>
-    </form>
-    <br>
-    <a style="background-color: green;" href="register.html"<button class="btn btn-lg btn-primary btn-block" type="button">Registrar</button></a>
-    
-    <div class="desenv_factos">
-    <h6>Desenvolvido por Factos &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img class="logo_factos" src="factos_color.svg" alt="FACTOS"></h6>
-    
+  <br><br><br><br>
+  <form action="" method="post" >
+    <div class="form-group">
+       <label class="campos" for="login">Login</label>
+       <div class="input-group">
+        <input type="text" class="form-control" id="login" name="login" placeholder="Digite seu login" required  >
+        <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+       </div>
     </div>
-  </body>
+    <div class="form-group">
+      <label class="campos" for="pass">Senha</label>
+      <div class="input-group">
+        <input type="password" class="form-control" id="pass" name="pass" placeholder="Digite sua senha" required  >
+        <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+      </div>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" onclick="loginUser()" type="button">Login</button>
+  </form>
+  <br>
+  <a style="background-color: green;" href="register.html"<button class="btn btn-lg btn-primary btn-block" type="button">Registrar</button></a>
+
+  <div class="desenv_factos">
+    <h6>Desenvolvido por Factos &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img class="logo_factos" src="factos_color.svg" alt="FACTOS"></h6>
+  </div>
+</body>
 </html>

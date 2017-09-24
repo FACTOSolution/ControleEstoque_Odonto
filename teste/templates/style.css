@@ -7,17 +7,28 @@
 }
 
 .desenv_factos {
-	text-align: left;
+	position: absolute;
+	bottom:0;
 	padding-top: 3%;
 	color: gray;
 
 }
 
-.tela_inicial {
-	padding:0px 3%;
-	background: white;
+.tela_pad {
+
+	background-image: url('fundo.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+	margin:3%;
 }
 
 .logo_factos {
-	width: 60px;
+	width: 55px;
+}
+
+.perguntas {
+	color: gray;
+	font-size:20px;
+	padding-left: 14%;
+
 }

@@ -6,7 +6,6 @@ function realizarCadastro() {
   var emailtxt = document.getElementById('InputEmail').value;
   var logintxt = document.getElementById('InputLogin').value;
   var senhatxt = document.getElementById('InputSenha').value;
-  alert('cade')
 
   var cadCon = new cadastroController();
   cadCon.saveUsuario(
