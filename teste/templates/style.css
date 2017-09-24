@@ -1,0 +1,23 @@
+.campos {
+	color:gray;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:25px;
+	padding: 0px 40%
+}
+
+.desenv_factos {
+	text-align: left;
+	padding-top: 3%;
+	color: gray;
+
+}
+
+.tela_inicial {
+	padding:0px 3%;
+	background: white;
+}
+
+.logo_factos {
+	width: 60px;
+}
