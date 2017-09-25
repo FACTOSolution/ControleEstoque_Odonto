@@ -32,3 +32,13 @@
 	padding-left: 14%;
 
 }
+
+.left{
+	position: relative;
+	float: left;
+}
+.but{
+	width: 40%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
