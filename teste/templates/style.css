@@ -15,11 +15,11 @@
 }
 
 .tela_pad {
-
-	background-image: url('fundo.jpg');
-    background-repeat: no-repeat;
-    background-size:100%;
-	margin:3%;
+	background-image: url('fundo2.svg');
+    background-repeat:repeat-y ;
+    background-size:200%;
+    background-position: 20% 20%;
+    margin:3%;
 }
 
 .logo_factos {
@@ -41,4 +41,8 @@
 	width: 40%;
 	margin-left: 5%;
 	margin-right: 5%;
+}
+
+.margem {
+	
 }
