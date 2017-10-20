@@ -17,10 +17,10 @@ app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') {
     app.quit()
   }
+})
 
   exports.openWindow = (filename) => {
     let win = new BrowserWindow({width: 800, height: 600})
-    win.loadURL(`file://${__dirname}/` + filename + `.html`)
+    win.setMenu(null);
+    win.loadURL(`file://${__dirname}/templates/` + filename + `.html`)
 }
-
-})
