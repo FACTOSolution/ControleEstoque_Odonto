@@ -2,8 +2,6 @@
 <html>
 <head>
   <title>Controle Estoque</title>
-</head>
-<body class="tela_pad">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -15,33 +13,31 @@
   <script src="../controller/login.js"></script>
   <script src="../index.js"></script>
   <script src="../test.js"></script>
+</head>
+<body>
 
-
-
-  <br><br><br><br><br><br>
-  <div class="col-md-6">
+  <p class="logo">LOGO</p>
+  <div class="col-md-6 formulario">
   <form action="" method="post" >
     <div class="form-group">
-       <label class="campos" for="login">Login</label>
        <div class="input-group">
         <input type="text" class="form-control" id="login" name="login" placeholder="Digite seu login" required  >
         <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
        </div>
     </div>
     <div class="form-group">
-      <label class="campos" for="pass">Senha</label>
       <div class="input-group">
         <input type="password" class="form-control" id="pass" name="pass" placeholder="Digite sua senha" required  >
         <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
       </div>
     </div>
-    <br>
-    <a href="register.html" style="background-color: green; border: 0px;" class="btn btn-lg btn-primary btn-block left but">Registrar</a>
+    <a href="register.html" style="background-color: green;" class="btn btn-lg btn-primary btn-block left" id = "bback">Registrar</a>
+    <button class="btn btn-lg btn-primary btn-block left" id="bgo" onclick="tela()" type="button">Login</button>
   </form>
-</div>
-  <button class="btn btn-lg btn-primary btn-block left but" onclick="loginUser()" type="button">Login</button>
-  <div class="desenv_factos">
-    <h6>Desenvolvido por Factos &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img class="logo_factos" src="factos_color.svg" alt="FACTOS"></h6>
+  </div>
+
+  <div id="footer">
+    <p>Developed by &nbsp&nbsp</p><img src="factos_logo_red.svg">
   </div>
 </body>
 </html>

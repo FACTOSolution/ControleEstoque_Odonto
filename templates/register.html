@@ -17,12 +17,11 @@
     </head>
 
 
-    <body class="tela_pad">
+    <body>
+            <div class="col-md-6 register">
         <form role="form" action="" method="post" >
-            <div class="col-md-6">
                 <div class="form-group">
-                    <br><br><br>
-                    <label class="perguntas" for="InputName">Preencha os campos abaixo</label>
+                    <label class="quest" for="InputName">Preencha os campos abaixo</label>
 
                     <br><br>
 
@@ -49,13 +48,12 @@
                             <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
                     </div>
                 </div>
-                <br>
-                <a href="index.html" style="background-color: red; border: 0px;" class="left but btn btn-lg btn-primary btn-block">Cancelar<a>
-                <button class="btn btn-lg btn-primary btn-block left but" onclick="realizarCadastro()" type="button">Cadastrar</button>
-            </div>
+                <a href="index.html" style="background-color: red; border: 0px;" class="left but btn btn-lg btn-primary btn-block" id="bback">Cancelar<a>
+                <button class="btn btn-lg btn-primary btn-block left but" onclick="realizarCadastro()" type="button" id="bgo">Cadastrar</button>
         </form>
-         <div class="desenv_factos">
-    <h6>Desenvolvido por Factos &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img class="logo_factos" src="factos_color.svg" alt="FACTOS"></h6>
+            </div>
+  <div id="footer">
+    <p>Developed by &nbsp&nbsp</p><img src="factos_logo_red.svg">
   </div>
     </body>
 </html>

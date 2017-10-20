@@ -14,7 +14,28 @@
   <script src="../index.js"></script>
 </head>
 <body>
-
-<h1>New Screen Test</h1>
+  <div id="topbar">
+    <p id ="datageral"><script type="text/javascript">
+        now = new Date
+        var mes = now.getMonth() +1;
+        document.write(now.getDate() +"/" + mes + "/" + now.getFullYear() + "  " + now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds() )
+      </script>dsadsa</p>
+  </div>
+<div id=sidebar>
+    <div id="footer" style="left:20%">
+      <p>Developed by &nbsp&nbsp</p><img src="factos_logo_red.svg">
+    </div>
+</div>
+<button  onclick="fechar_janela()">Sair</button>
 </body>
 </html>
+
+
+<script>
+  const remote = require('electron').remote;
+
+  function fechar_janela(){
+       var window = remote.getCurrentWindow();
+       window.close();
+  }
+</script>

@@ -10,3 +10,11 @@ function loginUser(){
   var user = uDAO.search(login);
 
 }
+
+function tela (){
+	var window = remote.getCurrentWindow()
+  //window.openDevTools()
+  main.openWindow('main')
+
+  window.close()
+}

@@ -1,48 +1,96 @@
-.campos {
-	color:gray;
-	font-weight: bold;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size:25px;
-	padding: 0px 40%
-}
 
-.desenv_factos {
-	position: absolute;
-	bottom:0;
-	padding-top: 3%;
-	color: gray;
-
-}
-
-.tela_pad {
+body{
 	background-image: url('fundo2.svg');
-    background-repeat:repeat-y ;
-    background-size:200%;
-    background-position: 20% 20%;
-    margin:3%;
+	margin:3%;
 }
 
-.logo_factos {
-	width: 55px;
+.logo{
+	position:absolute;
+	font-size: 80px;
+	left:100px;
+	top:40px;
+	color:#800000;
+
 }
 
-.perguntas {
-	color: gray;
+.formulario{
+	margin-top:200px;
+}
+
+#login{
+	height: 45px;
+}
+
+#pass{
+	height: 45px;
+}
+
+#bgo{
+	width: 40%;
+	margin-left: 5%;
+	margin-right: 5%;
+	border: 0px;
+	float:left;
+	margin-top:50px;
+	cursor:pointer;
+}
+#bback{
+	width: 40%;
+	margin-left: 5%;
+	margin-right: 5%;
+	border: 0px;
+	float:left;
+	margin-top:50px;
+	cursor:pointer;
+}
+
+#footer {
+	position:absolute;
+	bottom:10px;
+	left:110px;
+}
+
+#footer p{
+	margin-top:7px;
+	font-size: 15px;
+	color:#800000;
+	float:left;
+}
+#footer img {
+	width: 60px;
+}
+
+
+.quest {
+	color: #800000;
 	font-size:20px;
 	padding-left: 14%;
 
 }
 
-.left{
-	position: relative;
-	float: left;
-}
-.but{
-	width: 40%;
-	margin-left: 5%;
-	margin-right: 5%;
+.register {
+	margin-top:50px;
 }
 
-.margem {
-	
+#topbar {
+	background-color: #800000;
+	position:fixed;
+	width: 100%;
+	height: 5%;
+	top:0%;
+	left: 0%;
+}
+
+#sidebar {
+	background-color:#808080;
+	position:fixed;
+	width: 20%;
+	top:5%;
+	height: 95%;
+	left:0px;
+	opacity: .8;
+}
+
+#datageral {
+	color:white;
 }
