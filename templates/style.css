@@ -81,6 +81,12 @@ body{
 	left: 0%;
 }
 
+#topbar p {
+	color:white;
+	font-weight: bold;
+	float:left;
+}
+
 #sidebar {
 	background-color:#808080;
 	position:fixed;
@@ -91,6 +97,19 @@ body{
 	opacity: .8;
 }
 
-#datageral {
-	color:white;
+#data {
+	position:absolute;
+	top:20%;
+	left:44%;
+}
+
+#userbar {
+	position:absolute;
+	right:1%;
+	top:20%;
+}
+
+#topbutton {
+	margin:5px;
+
 }
